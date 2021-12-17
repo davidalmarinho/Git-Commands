@@ -22,6 +22,13 @@ ___
 | `git commit -m "[commit message]"` | Commit changes                                    |
 | `git rm -r [file-name.txt]`        | Remove a file (or folder)                         |
 
+### Undos
+
+| Command                         | Description                                       |
+|:------------------------------- | ------------------------------------------------- |
+| `git reset --soft`              | Undo all the commits that haven't been pushed yet |
+| `git restore --staged file.txt` | Undo all added file done by 'add .' command       |
+
 ### Branching & Merging
 
 | Command                                              | Description                                             |
